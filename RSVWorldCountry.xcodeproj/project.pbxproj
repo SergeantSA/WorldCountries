@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C25B0191BBC463000094004 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C25B0181BBC463000094004 /* main.m */; };
+		5C25B01C1BBC463000094004 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C25B01B1BBC463000094004 /* AppDelegate.m */; };
+		5C25B01F1BBC463000094004 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C25B01E1BBC463000094004 /* MasterViewController.m */; };
+		5C25B0221BBC463000094004 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C25B0211BBC463000094004 /* DetailViewController.m */; };
+		5C25B0251BBC463100094004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C25B0231BBC463100094004 /* Main.storyboard */; };
+		5C25B0271BBC463100094004 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C25B0261BBC463100094004 /* Images.xcassets */; };
+		5C25B02A1BBC463100094004 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C25B0281BBC463100094004 /* LaunchScreen.xib */; };
+		5C25B0361BBC463100094004 /* RSVWorldCountryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C25B0351BBC463100094004 /* RSVWorldCountryTests.m */; };
+		5C25B0411BBC46F600094004 /* RSVDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C25B0401BBC46F600094004 /* RSVDataModel.m */; };
+		5C25B0441BBC497900094004 /* RSVDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C25B0431BBC497900094004 /* RSVDataItem.m */; };
+		5C25B0471BBC540A00094004 /* RSVCountryInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C25B0461BBC540A00094004 /* RSVCountryInfoCell.m */; };
+		5C25B0491BBCBD6D00094004 /* Countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C25B0481BBCBD6D00094004 /* Countries.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C25B0301BBC463100094004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C25B00B1BBC463000094004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C25B0121BBC463000094004;
+			remoteInfo = RSVWorldCountry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C25B0131BBC463000094004 /* RSVWorldCountry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSVWorldCountry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C25B0171BBC463000094004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C25B0181BBC463000094004 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C25B01A1BBC463000094004 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C25B01B1BBC463000094004 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C25B01D1BBC463000094004 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		5C25B01E1BBC463000094004 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		5C25B0201BBC463000094004 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5C25B0211BBC463000094004 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5C25B0241BBC463100094004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C25B0261BBC463100094004 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5C25B0291BBC463100094004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5C25B02F1BBC463100094004 /* RSVWorldCountryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSVWorldCountryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C25B0341BBC463100094004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C25B0351BBC463100094004 /* RSVWorldCountryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSVWorldCountryTests.m; sourceTree = "<group>"; };
+		5C25B03F1BBC46F600094004 /* RSVDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSVDataModel.h; sourceTree = "<group>"; };
+		5C25B0401BBC46F600094004 /* RSVDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSVDataModel.m; sourceTree = "<group>"; };
+		5C25B0421BBC497900094004 /* RSVDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSVDataItem.h; sourceTree = "<group>"; };
+		5C25B0431BBC497900094004 /* RSVDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSVDataItem.m; sourceTree = "<group>"; };
+		5C25B0451BBC540A00094004 /* RSVCountryInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSVCountryInfoCell.h; sourceTree = "<group>"; };
+		5C25B0461BBC540A00094004 /* RSVCountryInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSVCountryInfoCell.m; sourceTree = "<group>"; };
+		5C25B0481BBCBD6D00094004 /* Countries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Countries.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C25B0101BBC463000094004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C25B02C1BBC463100094004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C25B00A1BBC463000094004 = {
+			isa = PBXGroup;
+			children = (
+				5C25B0151BBC463000094004 /* RSVWorldCountry */,
+				5C25B0321BBC463100094004 /* RSVWorldCountryTests */,
+				5C25B0141BBC463000094004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C25B0141BBC463000094004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C25B0131BBC463000094004 /* RSVWorldCountry.app */,
+				5C25B02F1BBC463100094004 /* RSVWorldCountryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C25B0151BBC463000094004 /* RSVWorldCountry */ = {
+			isa = PBXGroup;
+			children = (
+				5C25B01A1BBC463000094004 /* AppDelegate.h */,
+				5C25B01B1BBC463000094004 /* AppDelegate.m */,
+				5C25B01D1BBC463000094004 /* MasterViewController.h */,
+				5C25B01E1BBC463000094004 /* MasterViewController.m */,
+				5C25B0201BBC463000094004 /* DetailViewController.h */,
+				5C25B0211BBC463000094004 /* DetailViewController.m */,
+				5C25B0451BBC540A00094004 /* RSVCountryInfoCell.h */,
+				5C25B0461BBC540A00094004 /* RSVCountryInfoCell.m */,
+				5C25B03F1BBC46F600094004 /* RSVDataModel.h */,
+				5C25B0401BBC46F600094004 /* RSVDataModel.m */,
+				5C25B0421BBC497900094004 /* RSVDataItem.h */,
+				5C25B0431BBC497900094004 /* RSVDataItem.m */,
+				5C25B0231BBC463100094004 /* Main.storyboard */,
+				5C25B0261BBC463100094004 /* Images.xcassets */,
+				5C25B0281BBC463100094004 /* LaunchScreen.xib */,
+				5C25B0161BBC463000094004 /* Supporting Files */,
+				5C25B0481BBCBD6D00094004 /* Countries.plist */,
+			);
+			path = RSVWorldCountry;
+			sourceTree = "<group>";
+		};
+		5C25B0161BBC463000094004 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C25B0171BBC463000094004 /* Info.plist */,
+				5C25B0181BBC463000094004 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C25B0321BBC463100094004 /* RSVWorldCountryTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C25B0351BBC463100094004 /* RSVWorldCountryTests.m */,
+				5C25B0331BBC463100094004 /* Supporting Files */,
+			);
+			path = RSVWorldCountryTests;
+			sourceTree = "<group>";
+		};
+		5C25B0331BBC463100094004 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C25B0341BBC463100094004 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C25B0121BBC463000094004 /* RSVWorldCountry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C25B0391BBC463100094004 /* Build configuration list for PBXNativeTarget "RSVWorldCountry" */;
+			buildPhases = (
+				5C25B00F1BBC463000094004 /* Sources */,
+				5C25B0101BBC463000094004 /* Frameworks */,
+				5C25B0111BBC463000094004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSVWorldCountry;
+			productName = RSVWorldCountry;
+			productReference = 5C25B0131BBC463000094004 /* RSVWorldCountry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C25B02E1BBC463100094004 /* RSVWorldCountryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C25B03C1BBC463100094004 /* Build configuration list for PBXNativeTarget "RSVWorldCountryTests" */;
+			buildPhases = (
+				5C25B02B1BBC463100094004 /* Sources */,
+				5C25B02C1BBC463100094004 /* Frameworks */,
+				5C25B02D1BBC463100094004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C25B0311BBC463100094004 /* PBXTargetDependency */,
+			);
+			name = RSVWorldCountryTests;
+			productName = RSVWorldCountryTests;
+			productReference = 5C25B02F1BBC463100094004 /* RSVWorldCountryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C25B00B1BBC463000094004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = SergeantSoft;
+				TargetAttributes = {
+					5C25B0121BBC463000094004 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5C25B02E1BBC463100094004 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5C25B0121BBC463000094004;
+					};
+				};
+			};
+			buildConfigurationList = 5C25B00E1BBC463000094004 /* Build configuration list for PBXProject "RSVWorldCountry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C25B00A1BBC463000094004;
+			productRefGroup = 5C25B0141BBC463000094004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C25B0121BBC463000094004 /* RSVWorldCountry */,
+				5C25B02E1BBC463100094004 /* RSVWorldCountryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C25B0111BBC463000094004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C25B0251BBC463100094004 /* Main.storyboard in Resources */,
+				5C25B0491BBCBD6D00094004 /* Countries.plist in Resources */,
+				5C25B02A1BBC463100094004 /* LaunchScreen.xib in Resources */,
+				5C25B0271BBC463100094004 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C25B02D1BBC463100094004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C25B00F1BBC463000094004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C25B01C1BBC463000094004 /* AppDelegate.m in Sources */,
+				5C25B0411BBC46F600094004 /* RSVDataModel.m in Sources */,
+				5C25B0471BBC540A00094004 /* RSVCountryInfoCell.m in Sources */,
+				5C25B0441BBC497900094004 /* RSVDataItem.m in Sources */,
+				5C25B01F1BBC463000094004 /* MasterViewController.m in Sources */,
+				5C25B0191BBC463000094004 /* main.m in Sources */,
+				5C25B0221BBC463000094004 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C25B02B1BBC463100094004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C25B0361BBC463100094004 /* RSVWorldCountryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C25B0311BBC463100094004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C25B0121BBC463000094004 /* RSVWorldCountry */;
+			targetProxy = 5C25B0301BBC463100094004 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C25B0231BBC463100094004 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C25B0241BBC463100094004 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C25B0281BBC463100094004 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C25B0291BBC463100094004 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C25B0371BBC463100094004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C25B0381BBC463100094004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C25B03A1BBC463100094004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSVWorldCountry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C25B03B1BBC463100094004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSVWorldCountry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C25B03D1BBC463100094004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RSVWorldCountryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSVWorldCountry.app/RSVWorldCountry";
+			};
+			name = Debug;
+		};
+		5C25B03E1BBC463100094004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RSVWorldCountryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSVWorldCountry.app/RSVWorldCountry";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C25B00E1BBC463000094004 /* Build configuration list for PBXProject "RSVWorldCountry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C25B0371BBC463100094004 /* Debug */,
+				5C25B0381BBC463100094004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C25B0391BBC463100094004 /* Build configuration list for PBXNativeTarget "RSVWorldCountry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C25B03A1BBC463100094004 /* Debug */,
+				5C25B03B1BBC463100094004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C25B03C1BBC463100094004 /* Build configuration list for PBXNativeTarget "RSVWorldCountryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C25B03D1BBC463100094004 /* Debug */,
+				5C25B03E1BBC463100094004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C25B00B1BBC463000094004 /* Project object */;
+}
